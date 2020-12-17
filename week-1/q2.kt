@@ -1,9 +1,12 @@
 fun main() {
-    val numbers = arrayOf<Int>(6, 5, 10)
-    var max:Int = numbers[0]
+ numbers: Int = ArrayOf<Int>(0 , 0, 0)
+  var max:Int = numbers[0]
     
-    for (num in numbers){
+  for (index in 0..2) {
+        numbers[index] = Integer.valueOf(readLine())
+  }
+  for (num in numbers){
         if(num > max) max = num
     }
-    print("$max")
+    print("the max of given 3 numbers is $max")
 }

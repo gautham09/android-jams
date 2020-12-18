@@ -1,5 +1,5 @@
 fun main(){
-    val num : Int = 153 //Integer.valueOf(readLine())
+    val num : Int = Integer.valueOf(readLine())
     var orginalnum : Int = num
     var remainder : Int
     var answer : Int = 0
